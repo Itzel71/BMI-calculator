@@ -21,8 +21,8 @@ public class calculator {
     }
 
     public static double calculateBMI(double weight, double height) {
-        return weight / (height * height);
-    }
+    	double bmi = weight / (height * height);
+        return bmi;    }
 
     public static String getBMICategory(double bmi) {
         if (bmi < 18.5) {
